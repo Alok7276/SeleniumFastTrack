@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Crm Test">
+  <test name="Crm">
+  
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.crmpro.com/"/>
+  <parameter name="emailId" value="alok4u"/>
+  <parameter name="password" value="iamalok"/>
+  
+<classes>
+ <class name="com.qa.testng.ParameterTest"/>
+</classes>
+  </test>
+</suite> 
